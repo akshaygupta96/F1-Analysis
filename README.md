@@ -8,7 +8,7 @@ The main objective of this analysis is to see to what extent the sprint achieved
 For the purpose of the analysis, the main dataset is sourced from Kaggle: https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020?resource=download
 The dataset contains information on F1 races, drivers, contractors, qualifying, circuits, lap times, pit stops, and championships held from 1950 - 2023. For this analysis, we are using the following datasets: sprint_results.csv, gp_results.csv, status.csv, drivers.csv.
 
-| File                | Columns                                                                                                                                                                                                                      |
+| File                | Columns                                                                                                                                                                                                                     |
 |---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | sprint_results.csv  | resultId, raceId, driverId, constructorId, number, grid, position, positionText, positionOrder, points, laps, time, milliseconds, fastestLap, fastestLapTime, statusId          |
 | gp_results.csv      | resultId, raceId, driverId, constructorId, number, grid, position, positionText, positionOrder, points, laps, time, milliseconds, fastestLap, fastestLapTime, statusId          |
