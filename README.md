@@ -45,7 +45,7 @@ For most drivers, the race fastest lap timing is better than the sprint fastest 
 
 2. In the second part of the analysis, we look at the average position for both the sprint and race. We want to compare and see the finishing position of the drivers between the two racing types - if there are any noticeable differences, especially amongst the mid-tier drivers.
 ![image](https://github.com/akshaygupta96/F1-Analysis/assets/156336449/d05e8003-b8df-4bae-8df9-719121f4419a)
-For most drivers, there does not seem to be a clear trend in terms of the average positions. However, for the mid-tier drivers, most seem to be doing better in the actual race than in the sprint. HUL, RIC, MAG, GIO, and PIA do better in the sprint race. The biggest difference is seen in PIA, who did win a sprint race and came on the podium as well. Hence, it seems that it really depends on whether the mid-tier teams' driver is able to perform on that day itself, and not really on the sprint format.
+For most drivers, there does not seem to be a clear trend in terms of the average positions. However, for the mid-tier drivers, most seem to be doing better in the actual race than in the sprint. HUL, RIC, MAG, GIO, and PIA do better in the sprint race. The biggest difference is seen in PIA, who did win a sprint race and came on the podium as well. Hence, it seems that it really depends on whether the mid-tier teams' driver can perform during the event itself, and not really on the sprint format.
 
 
 
