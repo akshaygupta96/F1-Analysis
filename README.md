@@ -32,18 +32,18 @@ Here is a snapshot of the data:
 ![image](https://github.com/akshaygupta96/F1-Analysis/assets/156336449/f4d13cd1-2e99-47dc-8da7-1414834ab1f1)
 
 7. Next, to create the data to be in the format for plotting the graph, groupby driverid and take the mean of the columns
-8. Merge the dataframe with drivers dataset to get the code name of the drivers when plotting
+8. Merge the dataframe with the drivers dataset to get the code name of the drivers when plotting
 9. Since the mean is being used as the metric for comparison, outliers are removed based on the number of races the driver has driven. Filter out drivers who only have had one sprint race
 
 Here is a snapshot of the plotting_data:
 ![image](https://github.com/akshaygupta96/F1-Analysis/assets/156336449/7a434865-7327-486e-9412-aaf58bf2e2d8)
 
 ## Graphs Plotted:
-1. For the first part of the analysis, we look at the fastest lap time. In the main race, drivers can gain an extra point if they make the fastest lap for that grand prix. We want to compare to see if this fastest lap is different significantly between the sprint and race for the drivers.
+1. For the first part of the analysis, we look at the fastest lap time. In the main race, drivers can gain an extra point if they make the fastest lap for that grand prix. We want to compare to see if the fastest lap differs significantly between the sprint and race for the drivers.
 ![image](https://github.com/akshaygupta96/F1-Analysis/assets/156336449/7a40c259-3070-4b52-bc64-bed089d36232)
 For most drivers, the race fastest lap timing is better than the sprint fastest lap timing. This makes sense since they have a longer racing distance and can use different tires to the maximum capabilities. Drivers would not want to push the tires to the maximum extent during the sprint, as there are no points involved. However, we see that these 4 mid-tier drivers: VET, GIO, LAT, and PIA have better Mean Fastest Lap Time during the sprint as compared to the race. In fact, VET has one of the lowest Mean Fastest Lap Time for the sprint races. This means that some mid-tier drivers can perform better in terms of Mean Fastest Lap Time and if a point was awarded during the sprint for this, they may be able to fight and gain points in this aspect.
 
-2. In the second part of the analysis, we look at the average position for both the sprint and race. We want to compare and see the finishing position of the drivers, to see if there are any noticeable differences, especially amongst the mid-tier drivers.
+2. In the second part of the analysis, we look at the average position for both the sprint and race. We want to compare and see the finishing position of the drivers between the two racing types - if there are any noticeable differences, especially amongst the mid-tier drivers.
 ![image](https://github.com/akshaygupta96/F1-Analysis/assets/156336449/d05e8003-b8df-4bae-8df9-719121f4419a)
 For most drivers, there does not seem to be a clear trend in terms of the average positions. However, for the mid-tier drivers, most seem to be doing better in the actual race than in the sprint. HUL, RIC, MAG, GIO, and PIA do better in the sprint race. The biggest difference is seen in PIA, who did win a sprint race and came on the podium as well. Hence, it seems that it really depends on whether the mid-tier teams' driver is able to perform on that day itself, and not really on the sprint format.
 
