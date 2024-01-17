@@ -39,7 +39,7 @@ Here is a snapshot of the plotting_data:
 ![image](https://github.com/akshaygupta96/F1-Analysis/assets/156336449/7a434865-7327-486e-9412-aaf58bf2e2d8)
 
 ## Graphs Plotted:
-1. For the first part of the analysis, we look at the fastest lap time. In the main race, drivers can gain an extra point if they make the fastest lap for that grand prix. We want to compare to see if the fastest lap differs significantly between the sprint and race for the drivers.
+1. For the first part of the analysis, we look at the fastest lap time. In the main race, drivers can gain an extra point if they make the fastest lap for that grand prix. We want to compare to see if the fastest laps differ significantly between the sprint and race for the drivers.
 ![image](https://github.com/akshaygupta96/F1-Analysis/assets/156336449/7a40c259-3070-4b52-bc64-bed089d36232)
 For most drivers, the race fastest lap timing is better than the sprint fastest lap timing. This makes sense since they have a longer racing distance and can use different tires to the maximum capabilities. Drivers would not want to push the tires to the maximum extent during the sprint, as there are no points involved. However, we see that these 4 mid-tier drivers: VET, GIO, LAT, and PIA have better Mean Fastest Lap Time during the sprint as compared to the race. In fact, VET has one of the lowest Mean Fastest Lap Time for the sprint races. This means that some mid-tier drivers can perform better in terms of Mean Fastest Lap Time and if a point was awarded during the sprint for this, they may be able to fight and gain points in this aspect.
 
