@@ -8,17 +8,13 @@ The main objective of this analysis is to see to what extent the sprint achieved
 For the purpose of the analysis, the main dataset is sourced from Kaggle: https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020?resource=download
 The dataset contains information on F1 races, drivers, contractors, qualifying, circuits, lap times, pit stops, and championships held from 1950 - 2023. For this analysis, we are using the following datasets: sprint_results.csv, gp_results.csv, status.csv, drivers.csv.
 
-sprint_results.csv:
-resultId | raceId | driverId | constructorId | number | grid | position	| positionText | positionOrder | points | laps | time | milliseconds | fastestLap | fastestLapTime | statusId
+| File                | Columns                                                                                                                                                                                                                      |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| sprint_results.csv  | resultId | raceId | driverId | constructorId | number | grid | position | positionText | positionOrder | points | laps | time | milliseconds | fastestLap | fastestLapTime | statusId          |
+| gp_results.csv      | resultId | raceId | driverId | constructorId | number | grid | position | positionText | positionOrder | points | laps | time | milliseconds | fastestLap | fastestLapTime | statusId          |
+| status.csv          | statusId | status                                                                                                                                                                                                                      |
+| drivers.csv         | driverId | driverRef | number | code | forename | surname | dob | nationality | url                                                                                                                                                       |
 
-gp_results.csv:
-resultId | raceId | driverId | constructorId | number | grid | position	| positionText | positionOrder | points | laps | time | milliseconds | fastestLap | fastestLapTime | statusId
-
-status.csv:
-statusId | status
-
-drivers.csv:
-driverId | driverRef | number | code | forename | surname | dob | nationality | url
 
 ## Here is a breakdown of the steps taken for the analysis:
 1. Keeping races that are common between both sprint and grand prix races, so filter the grand prix races to match the race IDs of the sprint races.
