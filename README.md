@@ -10,10 +10,10 @@ The dataset contains information on F1 races, drivers, contractors, qualifying, 
 
 | File                | Columns                                                                                                                                                                                                                      |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| sprint_results.csv  | resultId , raceId , driverId , constructorId , number , grid , position , positionText , positionOrder , points , laps , time , milliseconds , fastestLap , fastestLapTime , statusId          |
-| gp_results.csv      | resultId , raceId , driverId , constructorId , number , grid , position , positionText , positionOrder , points , laps , time , milliseconds , fastestLap , fastestLapTime , statusId          |
-| status.csv          | statusId , status                                                                                                                                                                              |
-| drivers.csv         | driverId , driverRef , number , code , forename , surname , dob , nationality , url                                                                                                            |
+| sprint_results.csv  | resultId, raceId, driverId, constructorId, number, grid, position, positionText, positionOrder, points, laps, time, milliseconds, fastestLap, fastestLapTime, statusId          |
+| gp_results.csv      | resultId, raceId, driverId, constructorId, number, grid, position, positionText, positionOrder, points, laps, time, milliseconds, fastestLap, fastestLapTime, statusId          |
+| status.csv          | statusId, status                                                                                                                                                                |
+| drivers.csv         | driverId, driverRef, number, code, forename, surname, dob, nationality, url                                                                                                     |
 
 
 ## Here is a breakdown of the steps taken for the analysis:
